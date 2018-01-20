@@ -1,5 +1,6 @@
-SimpleRtmp - Client-side RTMP library for Java
-==============================================
+# SimpleRtmp - Client-side RTMP library for Java
+
+## Original Description
 
 SimpleRtmp is a Java library for building RTMP client applications.
 It was written entirely from scratch to avoid issues I encountered with existing Java
@@ -14,23 +15,20 @@ for audio playback (as this is what I needed it for).
 
 Patches are welcome!
 
-Requirements
-============
+## This Fork
 
-- Java 5 or later
+I am editing the [original repository][1] by @faucamp to work with Gradle so that it can be used
+in other projects, especially on Android, more easily. If anyone would like to help the
+conversion, that would be nice as I am not really familiar with it.
 
+## License information
 
-How to install this package
-===========================
+Copyright (C) 2013-2018 Francois Aucamp, Rob Rose
+See [contributors page][2] for all authors and contact information.
 
-I will fill this in once I have cleaned up the build script (the code is based off a
-proof-of-concept demo for my day job, so I simply used NetBeans to build everything).
-
-License information
-===================
-
-Copyright (C) 2013 Francois Aucamp
-See AUTHORS for all authors and contact information.
-
-License: GNU Lesser General Public License, version 3 or later; see COPYING
+License: GNU Lesser General Public License, version 3 or later; see [LICENSE.md][3]
          included in this archive for details.
+
+[1]: https://github.com/faucamp/SimpleRtmp
+[2]: https://github.com/RobRoseKnows/SimpleRtmp/graphs/contributors
+[3]: https://github.com/RobRoseKnows/SimpleRtmp/blob/master/LICENSE.md
